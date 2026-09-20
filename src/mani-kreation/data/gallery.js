@@ -1,4 +1,4 @@
-// Product gallery for Hoomora
+// Product gallery for MANI-KREATION
 export const GALLERY = [
   { src: "/ProductImage/IMG_3451.jpeg", caption: "Open, see and sort" },
   { src: "/ProductImage/IMG_3452.jpeg", caption: "Stackable everyday storage" },

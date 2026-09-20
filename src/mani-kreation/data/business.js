@@ -1,9 +1,9 @@
-// Central business / brand information for Hoomora
+// Central business / brand information for MANI-KREATION
 export const BUSINESS = {
-  name: "Hoomora",
-  tagline: "Smart storage for everyday living",
+  name: "MANI-KREATION",
+  tagline: "Thoughtful storage for everyday living",
   intro:
-    "Thoughtfully designed organizers that keep your home essentials protected, tidy and easy to find.",
+    "Practical organizers that keep everyday essentials protected, tidy and easy to find.",
   proprietor: "Siddique Alam Shaikh",
   firm: "Zuvox Bag's",
   phone: "9867143868",
@@ -18,10 +18,10 @@ export const BUSINESS = {
     country: "India",
   },
   trademark: {
-    mark: "Hoomora",
+    mark: "MANI-KREATION",
     type: "Device",
     act: "Trade Marks Act, 1999 (Form TM-A)",
-    refNo: "15239573",
+    refNo: "15240466",
     class: "Class 20",
     jurisdiction: "Ahmedabad",
     status: "Proposed to be used",
@@ -47,7 +47,7 @@ export const fullAddress = [
 export const whatsappLink = (message) =>
   `https://wa.me/${BUSINESS.phoneIntl}?text=${encodeURIComponent(
     message ||
-      "Hi Hoomora, I'd like to know more about your storage organizers.",
+      "Hi MANI-KREATION, I'd like to know more about your storage organizers.",
   )}`;
 
 export const telLink = `tel:+${BUSINESS.phoneIntl}`;

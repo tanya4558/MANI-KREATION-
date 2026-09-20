@@ -35,9 +35,9 @@ export default function Home() {
           <div className="hero__copy">
             <span className="eyebrow">{BUSINESS.tagline}</span>
             <h1 className="hero__title">
-              Make room
+              Organize with intention,
               <br />
-              <span className="hero__accent">for what matters.</span>
+              <span className="hero__accent">live with ease.</span>
             </h1>
             <p className="hero__lead">{BUSINESS.intro}</p>
             <div className="hero__cta">
@@ -56,22 +56,22 @@ export default function Home() {
             <div className="hero__stats">
               <div>
                 <strong>5</strong>
-                <span>Product views</span>
+                <span>Ways to view</span>
               </div>
               <div>
                 <strong>15 in</strong>
-                <span>Organized living</span>
+                <span>Made for shelves</span>
               </div>
               <div>
                 <strong>100%</strong>
-                <span>Foldable design</span>
+                <span>Fold-flat design</span>
               </div>
             </div>
           </div>
 
           <div className="hero__media">
             <div className="hero__glow" />
-            <img src="/ProductImage/IMG_3451.jpeg" alt="Hoomora foldable storage box with lid open" />
+            <img src="/ProductImage/IMG_3451.jpeg" alt="MANI-KREATION foldable storage box with lid open" />
             <div className="hero__chip">
               <FaLink />
               <div>
@@ -88,10 +88,10 @@ export default function Home() {
         <div className="container">
           <div className="section-head">
             <span className="eyebrow">The collection</span>
-            <h2>Simple storage, beautifully sorted</h2>
+            <h2>Order that feels effortless</h2>
             <p>
-              Organizers designed to make wardrobes, shelves and daily routines
-              feel lighter.
+              One considered shape for wardrobes, shelves and the little routines
+              that make a home feel like yours.
             </p>
           </div>
           <div className="home__grid">
@@ -106,14 +106,14 @@ export default function Home() {
       <section className="section features">
         <div className="container features__inner">
           <div className="features__media">
-            <img src="/ProductImage/IMG_3453.jpeg" alt="Hoomora storage box folded flat" />
+            <img src="/ProductImage/IMG_3453.jpeg" alt="MANI-KREATION storage box folded flat" />
           </div>
           <div className="features__copy">
             <span className="eyebrow">Why you'll love it</span>
-            <h2>Every detail, considered</h2>
+            <h2>Made for the way you live</h2>
             <p className="features__lead">
-              From the lift-up lid to the fold-flat construction, Hoomora is built
-              to make storing effortless and finding things a joy.
+              From the lift-up lid to the fold-flat construction, MANI-KREATION
+              brings a calmer rhythm to storing, finding and putting things away.
             </p>
             <div className="features__grid">
               {FEATURES.map((f) => (
@@ -135,7 +135,7 @@ export default function Home() {
       {/* CTA banner */}
       <section className="cta">
         <div className="container cta__inner">
-          <h2>Ready for a calmer home?</h2>
+          <h2>Make space for better days.</h2>
           <p>Message us on WhatsApp for pricing, bulk orders and delivery across India.</p>
           <a
             className="btn btn-dark"

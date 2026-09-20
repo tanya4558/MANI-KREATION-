@@ -31,7 +31,7 @@ export default function Navbar() {
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <div className="container nav__inner">
         <Link to="/" className="nav__brand" onClick={() => setOpen(false)}>
-          <span className="nav__logo">Hoomora</span>
+          <span className="nav__logo">MANI-KREATION</span>
           <span className="nav__sub">Storage Studio</span>
         </Link>
 

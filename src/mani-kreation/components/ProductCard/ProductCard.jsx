@@ -41,7 +41,7 @@ export default function ProductCard({ product }) {
         <a
           className="btn btn-primary btn-block"
           href={whatsappLink(
-            `Hi Hoomora, I'm interested in the ${product.name} (${product.colorway}).`
+            `Hi MANI-KREATION, I'm interested in the ${product.name} (${product.colorway}).`
           )}
           target="_blank"
           rel="noreferrer"

@@ -8,7 +8,7 @@ export default function Gallery() {
         <div className="section-head">
           <span className="eyebrow">In the wild</span>
           <h2>Made for real routines</h2>
-          <p>From wardrobes to shelves, Hoomora keeps everyday essentials in view.</p>
+          <p>From wardrobes to shelves, MANI-KREATION keeps everyday essentials in view.</p>
         </div>
         <div className="gallery__grid">
           {GALLERY.map((g, i) => (

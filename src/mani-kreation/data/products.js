@@ -1,4 +1,4 @@
-// Product catalogue for Hoomora home storage organizers
+// Product catalogue for MANI-KREATION home storage organizers
 export const formatINR = (value) =>
   new Intl.NumberFormat("en-IN", {
     style: "currency",
@@ -8,8 +8,8 @@ export const formatINR = (value) =>
 
 export const PRODUCTS = [
   {
-    id: "hoomora-storage-box",
-    name: "Hoomora Foldable Storage Box",
+    id: "mani-kreation-storage-box",
+    name: "MANI-KREATION Foldable Storage Box",
     colorway: "Multi-angle product view",
     price: 250,
     mrp: 500,
@@ -18,7 +18,7 @@ export const PRODUCTS = [
     badge: "Bestseller",
     tone: "rose",
     short:
-      "A roomy fabric organizer with a lift-up lid, soft lining and a front label window for effortless sorting.",
+      "A roomy fabric organizer with a lift-up lid, soft lining and a front label window for simple sorting.",
     image: "/ProductImage/IMG_3451.jpeg",
     gallery: [
       "/ProductImage/IMG_3451.jpeg",

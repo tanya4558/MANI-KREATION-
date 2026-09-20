@@ -75,7 +75,7 @@ export default function Contact() {
         <div className="contact__side">
           <div className="contact__map">
             <iframe
-              title="Hoomora location - Olpad, Surat"
+              title="MANI-KREATION location - Olpad, Surat"
               src={`https://www.google.com/maps?q=${encodeURIComponent(
                 fullAddress
               )}&output=embed`}
